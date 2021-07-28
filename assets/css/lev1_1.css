@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+div {
+  /* background-color: yellow; */
+  height: 100vh;
+  width: 100%;
+}
+#red,
+#Yellow,
+#green {
+  text-align: center;
+  padding-top: 50%;
+}
+#red {
+  background-color: rgb(205, 101, 115);
+}
+#Yellow {
+  background-color: rgb(251, 255, 127);
+}
+#green {
+  background-color: rgb(176, 255, 188);
+}
+div a {
+  text-decoration: none;
+  color: Black;
+  font-size: 4em;
+}
+div i {
+  font-size: 4em;
+  animation: up-down 1.2s infinite ease-in-out alternate;
+}
+@keyframes up-down {
+  from {
+    transform: translatey(10px);
+  }
+  to {
+    transform: translatey(-20px);
+  }
+}

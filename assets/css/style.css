@@ -1,0 +1,47 @@
+div {
+  margin-top: 30%;
+}
+div h2,
+div h5 {
+  font-size: 25px;
+  color: orange;
+}
+h5 {
+  font-size: 15px;
+}
+
+div {
+  height: 200px;
+  width: 200px;
+}
+@keyframes animation-name {
+}
+
+img {
+  width: 70%;
+  animation-name: AMG;
+  animation-duration: 2s;
+  animation-timing-function: ease;
+  /* animation-delay: 2s; */
+  animation-iteration-count: infinite;
+}
+
+@keyframes AMG {
+  0%,
+  100% {
+    transform: translateX(20px);
+  }
+  15% {
+    transform: translateX(50px);
+  }
+
+  40% {
+    transform: translateX(350px);
+  }
+  70% {
+    transform: translateX(750px);
+  }
+  90% {
+    transform: translateX(1800px);
+  }
+}
